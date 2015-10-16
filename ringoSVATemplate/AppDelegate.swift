@@ -3,8 +3,6 @@
 //  ringoSVATemplate
 //
 
-//  Copyright (c) 2015 Ringo. All rights reserved.
-//
 
 import UIKit
 

@@ -7,46 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C792C24C1B4F43BD0062A170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792C24B1B4F43BD0062A170 /* AppDelegate.swift */; };
-		C792C24E1B4F43BD0062A170 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792C24D1B4F43BD0062A170 /* ViewController.swift */; };
-		C792C2511B4F43BD0062A170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C792C24F1B4F43BD0062A170 /* Main.storyboard */; };
-		C792C2531B4F43BD0062A170 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C792C2521B4F43BD0062A170 /* Images.xcassets */; };
-		C792C2561B4F43BD0062A170 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C792C2541B4F43BD0062A170 /* LaunchScreen.xib */; };
-		C792C2621B4F43BD0062A170 /* ringoSVATemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792C2611B4F43BD0062A170 /* ringoSVATemplateTests.swift */; };
+		C74E283E1BD170AB00C48016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74E283D1BD170AB00C48016 /* AppDelegate.swift */; };
+		C74E28401BD170AB00C48016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74E283F1BD170AB00C48016 /* ViewController.swift */; };
+		C74E28431BD170AB00C48016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74E28411BD170AB00C48016 /* Main.storyboard */; };
+		C74E28451BD170AB00C48016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74E28441BD170AB00C48016 /* Assets.xcassets */; };
+		C74E28481BD170AB00C48016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74E28461BD170AB00C48016 /* LaunchScreen.storyboard */; };
+		C74E28531BD170AC00C48016 /* ringoSVATemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74E28521BD170AC00C48016 /* ringoSVATemplateTests.swift */; };
+		C74E285E1BD170AC00C48016 /* ringoSVATemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74E285D1BD170AC00C48016 /* ringoSVATemplateUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C792C25C1B4F43BD0062A170 /* PBXContainerItemProxy */ = {
+		C74E284F1BD170AC00C48016 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C792C23E1B4F43BD0062A170 /* Project object */;
+			containerPortal = C74E28321BD170AB00C48016 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C792C2451B4F43BD0062A170;
+			remoteGlobalIDString = C74E28391BD170AB00C48016;
+			remoteInfo = ringoSVATemplate;
+		};
+		C74E285A1BD170AC00C48016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C74E28321BD170AB00C48016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C74E28391BD170AB00C48016;
 			remoteInfo = ringoSVATemplate;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C792C2461B4F43BD0062A170 /* ringoSVATemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ringoSVATemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C792C24A1B4F43BD0062A170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C792C24B1B4F43BD0062A170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C792C24D1B4F43BD0062A170 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C792C2501B4F43BD0062A170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C792C2521B4F43BD0062A170 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C792C2551B4F43BD0062A170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C792C25B1B4F43BD0062A170 /* ringoSVATemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringoSVATemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C792C2601B4F43BD0062A170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C792C2611B4F43BD0062A170 /* ringoSVATemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ringoSVATemplateTests.swift; sourceTree = "<group>"; };
+		C74E283A1BD170AB00C48016 /* ringoSVATemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ringoSVATemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74E283D1BD170AB00C48016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C74E283F1BD170AB00C48016 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C74E28421BD170AB00C48016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C74E28441BD170AB00C48016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C74E28471BD170AB00C48016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C74E28491BD170AB00C48016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74E284E1BD170AC00C48016 /* ringoSVATemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringoSVATemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74E28521BD170AC00C48016 /* ringoSVATemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ringoSVATemplateTests.swift; sourceTree = "<group>"; };
+		C74E28541BD170AC00C48016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74E28591BD170AC00C48016 /* ringoSVATemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringoSVATemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74E285D1BD170AC00C48016 /* ringoSVATemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ringoSVATemplateUITests.swift; sourceTree = "<group>"; };
+		C74E285F1BD170AC00C48016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C792C2431B4F43BD0062A170 /* Frameworks */ = {
+		C74E28371BD170AB00C48016 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C792C2581B4F43BD0062A170 /* Frameworks */ = {
+		C74E284B1BD170AC00C48016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74E28561BD170AC00C48016 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,72 +74,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C792C23D1B4F43BD0062A170 = {
+		C74E28311BD170AB00C48016 = {
 			isa = PBXGroup;
 			children = (
-				C792C2481B4F43BD0062A170 /* ringoSVATemplate */,
-				C792C25E1B4F43BD0062A170 /* ringoSVATemplateTests */,
-				C792C2471B4F43BD0062A170 /* Products */,
+				C74E283C1BD170AB00C48016 /* ringoSVATemplate */,
+				C74E28511BD170AC00C48016 /* ringoSVATemplateTests */,
+				C74E285C1BD170AC00C48016 /* ringoSVATemplateUITests */,
+				C74E283B1BD170AB00C48016 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C792C2471B4F43BD0062A170 /* Products */ = {
+		C74E283B1BD170AB00C48016 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C792C2461B4F43BD0062A170 /* ringoSVATemplate.app */,
-				C792C25B1B4F43BD0062A170 /* ringoSVATemplateTests.xctest */,
+				C74E283A1BD170AB00C48016 /* ringoSVATemplate.app */,
+				C74E284E1BD170AC00C48016 /* ringoSVATemplateTests.xctest */,
+				C74E28591BD170AC00C48016 /* ringoSVATemplateUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C792C2481B4F43BD0062A170 /* ringoSVATemplate */ = {
+		C74E283C1BD170AB00C48016 /* ringoSVATemplate */ = {
 			isa = PBXGroup;
 			children = (
-				C792C24B1B4F43BD0062A170 /* AppDelegate.swift */,
-				C792C24D1B4F43BD0062A170 /* ViewController.swift */,
-				C792C24F1B4F43BD0062A170 /* Main.storyboard */,
-				C792C2521B4F43BD0062A170 /* Images.xcassets */,
-				C792C2541B4F43BD0062A170 /* LaunchScreen.xib */,
-				C792C2491B4F43BD0062A170 /* Supporting Files */,
+				C74E283D1BD170AB00C48016 /* AppDelegate.swift */,
+				C74E283F1BD170AB00C48016 /* ViewController.swift */,
+				C74E28411BD170AB00C48016 /* Main.storyboard */,
+				C74E28441BD170AB00C48016 /* Assets.xcassets */,
+				C74E28461BD170AB00C48016 /* LaunchScreen.storyboard */,
+				C74E28491BD170AB00C48016 /* Info.plist */,
 			);
 			path = ringoSVATemplate;
 			sourceTree = "<group>";
 		};
-		C792C2491B4F43BD0062A170 /* Supporting Files */ = {
+		C74E28511BD170AC00C48016 /* ringoSVATemplateTests */ = {
 			isa = PBXGroup;
 			children = (
-				C792C24A1B4F43BD0062A170 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C792C25E1B4F43BD0062A170 /* ringoSVATemplateTests */ = {
-			isa = PBXGroup;
-			children = (
-				C792C2611B4F43BD0062A170 /* ringoSVATemplateTests.swift */,
-				C792C25F1B4F43BD0062A170 /* Supporting Files */,
+				C74E28521BD170AC00C48016 /* ringoSVATemplateTests.swift */,
+				C74E28541BD170AC00C48016 /* Info.plist */,
 			);
 			path = ringoSVATemplateTests;
 			sourceTree = "<group>";
 		};
-		C792C25F1B4F43BD0062A170 /* Supporting Files */ = {
+		C74E285C1BD170AC00C48016 /* ringoSVATemplateUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C792C2601B4F43BD0062A170 /* Info.plist */,
+				C74E285D1BD170AC00C48016 /* ringoSVATemplateUITests.swift */,
+				C74E285F1BD170AC00C48016 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = ringoSVATemplateUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C792C2451B4F43BD0062A170 /* ringoSVATemplate */ = {
+		C74E28391BD170AB00C48016 /* ringoSVATemplate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C792C2651B4F43BD0062A170 /* Build configuration list for PBXNativeTarget "ringoSVATemplate" */;
+			buildConfigurationList = C74E28621BD170AC00C48016 /* Build configuration list for PBXNativeTarget "ringoSVATemplate" */;
 			buildPhases = (
-				C792C2421B4F43BD0062A170 /* Sources */,
-				C792C2431B4F43BD0062A170 /* Frameworks */,
-				C792C2441B4F43BD0062A170 /* Resources */,
+				C74E28361BD170AB00C48016 /* Sources */,
+				C74E28371BD170AB00C48016 /* Frameworks */,
+				C74E28381BD170AB00C48016 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -129,46 +142,68 @@
 			);
 			name = ringoSVATemplate;
 			productName = ringoSVATemplate;
-			productReference = C792C2461B4F43BD0062A170 /* ringoSVATemplate.app */;
+			productReference = C74E283A1BD170AB00C48016 /* ringoSVATemplate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C792C25A1B4F43BD0062A170 /* ringoSVATemplateTests */ = {
+		C74E284D1BD170AC00C48016 /* ringoSVATemplateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C792C2681B4F43BD0062A170 /* Build configuration list for PBXNativeTarget "ringoSVATemplateTests" */;
+			buildConfigurationList = C74E28651BD170AC00C48016 /* Build configuration list for PBXNativeTarget "ringoSVATemplateTests" */;
 			buildPhases = (
-				C792C2571B4F43BD0062A170 /* Sources */,
-				C792C2581B4F43BD0062A170 /* Frameworks */,
-				C792C2591B4F43BD0062A170 /* Resources */,
+				C74E284A1BD170AC00C48016 /* Sources */,
+				C74E284B1BD170AC00C48016 /* Frameworks */,
+				C74E284C1BD170AC00C48016 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C792C25D1B4F43BD0062A170 /* PBXTargetDependency */,
+				C74E28501BD170AC00C48016 /* PBXTargetDependency */,
 			);
 			name = ringoSVATemplateTests;
 			productName = ringoSVATemplateTests;
-			productReference = C792C25B1B4F43BD0062A170 /* ringoSVATemplateTests.xctest */;
+			productReference = C74E284E1BD170AC00C48016 /* ringoSVATemplateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C74E28581BD170AC00C48016 /* ringoSVATemplateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C74E28681BD170AC00C48016 /* Build configuration list for PBXNativeTarget "ringoSVATemplateUITests" */;
+			buildPhases = (
+				C74E28551BD170AC00C48016 /* Sources */,
+				C74E28561BD170AC00C48016 /* Frameworks */,
+				C74E28571BD170AC00C48016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C74E285B1BD170AC00C48016 /* PBXTargetDependency */,
+			);
+			name = ringoSVATemplateUITests;
+			productName = ringoSVATemplateUITests;
+			productReference = C74E28591BD170AC00C48016 /* ringoSVATemplateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C792C23E1B4F43BD0062A170 /* Project object */ = {
+		C74E28321BD170AB00C48016 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Ringo;
 				TargetAttributes = {
-					C792C2451B4F43BD0062A170 = {
-						CreatedOnToolsVersion = 6.4;
+					C74E28391BD170AB00C48016 = {
+						CreatedOnToolsVersion = 7.0.1;
 					};
-					C792C25A1B4F43BD0062A170 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = C792C2451B4F43BD0062A170;
+					C74E284D1BD170AC00C48016 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C74E28391BD170AB00C48016;
+					};
+					C74E28581BD170AC00C48016 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C74E28391BD170AB00C48016;
 					};
 				};
 			};
-			buildConfigurationList = C792C2411B4F43BD0062A170 /* Build configuration list for PBXProject "ringoSVATemplate" */;
+			buildConfigurationList = C74E28351BD170AB00C48016 /* Build configuration list for PBXProject "ringoSVATemplate" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -176,29 +211,37 @@
 				en,
 				Base,
 			);
-			mainGroup = C792C23D1B4F43BD0062A170;
-			productRefGroup = C792C2471B4F43BD0062A170 /* Products */;
+			mainGroup = C74E28311BD170AB00C48016;
+			productRefGroup = C74E283B1BD170AB00C48016 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C792C2451B4F43BD0062A170 /* ringoSVATemplate */,
-				C792C25A1B4F43BD0062A170 /* ringoSVATemplateTests */,
+				C74E28391BD170AB00C48016 /* ringoSVATemplate */,
+				C74E284D1BD170AC00C48016 /* ringoSVATemplateTests */,
+				C74E28581BD170AC00C48016 /* ringoSVATemplateUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C792C2441B4F43BD0062A170 /* Resources */ = {
+		C74E28381BD170AB00C48016 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C792C2511B4F43BD0062A170 /* Main.storyboard in Resources */,
-				C792C2561B4F43BD0062A170 /* LaunchScreen.xib in Resources */,
-				C792C2531B4F43BD0062A170 /* Images.xcassets in Resources */,
+				C74E28481BD170AB00C48016 /* LaunchScreen.storyboard in Resources */,
+				C74E28451BD170AB00C48016 /* Assets.xcassets in Resources */,
+				C74E28431BD170AB00C48016 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C792C2591B4F43BD0062A170 /* Resources */ = {
+		C74E284C1BD170AC00C48016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74E28571BD170AC00C48016 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,54 +251,67 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C792C2421B4F43BD0062A170 /* Sources */ = {
+		C74E28361BD170AB00C48016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C792C24E1B4F43BD0062A170 /* ViewController.swift in Sources */,
-				C792C24C1B4F43BD0062A170 /* AppDelegate.swift in Sources */,
+				C74E28401BD170AB00C48016 /* ViewController.swift in Sources */,
+				C74E283E1BD170AB00C48016 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C792C2571B4F43BD0062A170 /* Sources */ = {
+		C74E284A1BD170AC00C48016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C792C2621B4F43BD0062A170 /* ringoSVATemplateTests.swift in Sources */,
+				C74E28531BD170AC00C48016 /* ringoSVATemplateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74E28551BD170AC00C48016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74E285E1BD170AC00C48016 /* ringoSVATemplateUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C792C25D1B4F43BD0062A170 /* PBXTargetDependency */ = {
+		C74E28501BD170AC00C48016 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C792C2451B4F43BD0062A170 /* ringoSVATemplate */;
-			targetProxy = C792C25C1B4F43BD0062A170 /* PBXContainerItemProxy */;
+			target = C74E28391BD170AB00C48016 /* ringoSVATemplate */;
+			targetProxy = C74E284F1BD170AC00C48016 /* PBXContainerItemProxy */;
+		};
+		C74E285B1BD170AC00C48016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C74E28391BD170AB00C48016 /* ringoSVATemplate */;
+			targetProxy = C74E285A1BD170AC00C48016 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C792C24F1B4F43BD0062A170 /* Main.storyboard */ = {
+		C74E28411BD170AB00C48016 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C792C2501B4F43BD0062A170 /* Base */,
+				C74E28421BD170AB00C48016 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C792C2541B4F43BD0062A170 /* LaunchScreen.xib */ = {
+		C74E28461BD170AB00C48016 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C792C2551B4F43BD0062A170 /* Base */,
+				C74E28471BD170AB00C48016 /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C792C2631B4F43BD0062A170 /* Debug */ = {
+		C74E28601BD170AC00C48016 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,8 +330,9 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -284,14 +341,13 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -299,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		C792C2641B4F43BD0062A170 /* Release */ = {
+		C74E28611BD170AC00C48016 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -329,96 +385,120 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C792C2661B4F43BD0062A170 /* Debug */ = {
+		C74E28631BD170AC00C48016 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ringoSVATemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoSVATemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		C792C2671B4F43BD0062A170 /* Release */ = {
+		C74E28641BD170AC00C48016 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ringoSVATemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoSVATemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		C792C2691B4F43BD0062A170 /* Debug */ = {
+		C74E28661BD170AC00C48016 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = ringoSVATemplateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoSVATemplateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringoSVATemplate.app/ringoSVATemplate";
 			};
 			name = Debug;
 		};
-		C792C26A1B4F43BD0062A170 /* Release */ = {
+		C74E28671BD170AC00C48016 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = ringoSVATemplateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoSVATemplateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringoSVATemplate.app/ringoSVATemplate";
+			};
+			name = Release;
+		};
+		C74E28691BD170AC00C48016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ringoSVATemplateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoSVATemplateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ringoSVATemplate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C74E286A1BD170AC00C48016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ringoSVATemplateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoSVATemplateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ringoSVATemplate;
+				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C792C2411B4F43BD0062A170 /* Build configuration list for PBXProject "ringoSVATemplate" */ = {
+		C74E28351BD170AB00C48016 /* Build configuration list for PBXProject "ringoSVATemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C792C2631B4F43BD0062A170 /* Debug */,
-				C792C2641B4F43BD0062A170 /* Release */,
+				C74E28601BD170AC00C48016 /* Debug */,
+				C74E28611BD170AC00C48016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C792C2651B4F43BD0062A170 /* Build configuration list for PBXNativeTarget "ringoSVATemplate" */ = {
+		C74E28621BD170AC00C48016 /* Build configuration list for PBXNativeTarget "ringoSVATemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C792C2661B4F43BD0062A170 /* Debug */,
-				C792C2671B4F43BD0062A170 /* Release */,
+				C74E28631BD170AC00C48016 /* Debug */,
+				C74E28641BD170AC00C48016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C792C2681B4F43BD0062A170 /* Build configuration list for PBXNativeTarget "ringoSVATemplateTests" */ = {
+		C74E28651BD170AC00C48016 /* Build configuration list for PBXNativeTarget "ringoSVATemplateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C792C2691B4F43BD0062A170 /* Debug */,
-				C792C26A1B4F43BD0062A170 /* Release */,
+				C74E28661BD170AC00C48016 /* Debug */,
+				C74E28671BD170AC00C48016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C74E28681BD170AC00C48016 /* Build configuration list for PBXNativeTarget "ringoSVATemplateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74E28691BD170AC00C48016 /* Debug */,
+				C74E286A1BD170AC00C48016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C792C23E1B4F43BD0062A170 /* Project object */;
+	rootObject = C74E28321BD170AB00C48016 /* Project object */;
 }

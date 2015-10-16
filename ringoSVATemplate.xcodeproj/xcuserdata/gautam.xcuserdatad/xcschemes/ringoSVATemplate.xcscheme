@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0640"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,41 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C792C2451B4F43BD0062A170"
+               BlueprintIdentifier = "C74E28391BD170AB00C48016"
                BuildableName = "ringoSVATemplate.app"
                BlueprintName = "ringoSVATemplate"
-               ReferencedContainer = "container:ringoSVATemplate.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C792C25A1B4F43BD0062A170"
-               BuildableName = "ringoSVATemplateTests.xctest"
-               BlueprintName = "ringoSVATemplateTests"
                ReferencedContainer = "container:ringoSVATemplate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C792C25A1B4F43BD0062A170"
+               BlueprintIdentifier = "C74E284D1BD170AC00C48016"
                BuildableName = "ringoSVATemplateTests.xctest"
                BlueprintName = "ringoSVATemplateTests"
+               ReferencedContainer = "container:ringoSVATemplate.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C74E28581BD170AC00C48016"
+               BuildableName = "ringoSVATemplateUITests.xctest"
+               BlueprintName = "ringoSVATemplateUITests"
                ReferencedContainer = "container:ringoSVATemplate.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,27 +52,30 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C792C2451B4F43BD0062A170"
+            BlueprintIdentifier = "C74E28391BD170AB00C48016"
             BuildableName = "ringoSVATemplate.app"
             BlueprintName = "ringoSVATemplate"
             ReferencedContainer = "container:ringoSVATemplate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C792C2451B4F43BD0062A170"
+            BlueprintIdentifier = "C74E28391BD170AB00C48016"
             BuildableName = "ringoSVATemplate.app"
             BlueprintName = "ringoSVATemplate"
             ReferencedContainer = "container:ringoSVATemplate.xcodeproj">
@@ -86,16 +85,16 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C792C2451B4F43BD0062A170"
+            BlueprintIdentifier = "C74E28391BD170AB00C48016"
             BuildableName = "ringoSVATemplate.app"
             BlueprintName = "ringoSVATemplate"
             ReferencedContainer = "container:ringoSVATemplate.xcodeproj">
